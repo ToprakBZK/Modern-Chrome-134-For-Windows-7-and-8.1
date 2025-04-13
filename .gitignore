@@ -1,18 +1,39 @@
-# This .gitignore is appropriate for repositories deployed to GitHub Pages and using
-# a Gemfile as specified at https://github.com/github/pages-gem#conventional
+# Geçici dosyalar
+*.tmp
+*.log
+*.bak
 
-# Basic Jekyll gitignores (synchronize to Jekyll.gitignore)
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Windows sistem dosyaları
+Thumbs.db
+Desktop.ini
+ehthumbs.db
 
-# Additional Ruby/bundler ignore for when you run: bundle install
-/vendor
+# Git yedek dosyaları
+*.swp
+*.swo
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem 
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
-Gemfile.lock
+# Derlenmiş dosyalar
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# Zip veya arşiv dosyaları (eğer sadece release'e yüklenecekse)
+*.zip
+*.7z
+*.tar
+*.rar
+
+# IDE dosyaları
+.vscode/
+.idea/
+
+# Çöp klasörler
+__pycache__/
+.DS_Store
+*.class
+
+# Kendi build dizinin varsa örnek:
+build/
+dist/
+out/
