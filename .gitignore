@@ -1,39 +1,31 @@
-# Geçici dosyalar
+# Temporary files
 *.tmp
 *.log
 *.bak
 
-# Windows sistem dosyaları
+# Windows system files
 Thumbs.db
 Desktop.ini
 ehthumbs.db
 
-# Git yedek dosyaları
+# Git temporary/backup files
 *.swp
 *.swo
 
-# Derlenmiş dosyalar
+# Compiled binary files
 *.exe
 *.dll
 *.obj
 *.pdb
 
-# Zip veya arşiv dosyaları (eğer sadece release'e yüklenecekse)
+# Archive files (ignore if you're using Releases to share them)
 *.zip
 *.7z
 *.tar
 *.rar
 
-# IDE dosyaları
+# IDE/editor folders
 .vscode/
 .idea/
 
-# Çöp klasörler
-__pycache__/
-.DS_Store
-*.class
-
-# Kendi build dizinin varsa örnek:
-build/
-dist/
-out/
+# Cache and
