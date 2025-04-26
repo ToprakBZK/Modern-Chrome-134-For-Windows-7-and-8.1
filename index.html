@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Chrome 134</title>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #1c1c1c;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 10px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #a020f0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .tile {
+            background-color: #2e0854;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .tile:hover {
+            background-color: #4b0082;
+        }
+
+        .tile h2 {
+            margin-bottom: 15px;
+            font-size: 22px;
+        }
+
+        .tile p {
+            font-size: 16px;
+        }
+
+        .download-button {
+            background-color: #6a0dad;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-top: 15px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .download-button:hover {
+            background-color: #7f00ff;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <img src="mor_logo.png" alt="Modern Chrome Logo" class="logo">
+    <h1>Modern Chrome 134</h1>
+
+    <div class="grid">
+        <div class="tile">
+            <h2>System Requirements</h2>
+            <p>Windows 8.1<br>Windows 8.0 (Soon)<br>Windows 7</p>
+        </div>
+
+        <div class="tile">
+            <h2>Download</h2>
+            <a class="download-button" href="https://github.com/ToprakBZK/Modern-Chrome-134-For-Windows-7-and-8.1/releases" target="_blank">Download</a>
+        </div>
+
+        <div class="tile">
+            <h2>Release Notes</h2>
+            <p>Visit our GitHub page for more details.</p>
+            <a class="download-button" href="https://github.com/ToprakBZK/Modern-Chrome-134-For-Windows-7-and-8.1" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 ToprakBZK. All Rights Reserved.
+    </footer>
+</body>
+</html>
